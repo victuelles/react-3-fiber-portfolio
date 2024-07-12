@@ -12,6 +12,11 @@ export const config = {
         level: 80,
       },
       {
+        name: "NextJS",
+        icon: "icons/react-native.png",
+        level: 80,
+      },
+      {
         name: "JavaScript",
         icon: "icons/javascript.png",
         level: 80,
@@ -27,8 +32,8 @@ export const config = {
         level: 50,
       },
       {
-        name: "French",
-        icon: "icons/france.png",
+        name: "Tagalog",
+        icon: "icons/flag-philippines.png",
         level: 100,
       },
       {
@@ -37,45 +42,45 @@ export const config = {
         level: 90,
       },
       {
-        name: "Japanese",
-        icon: "icons/japan.png",
+        name: "Russian",
+        icon: "icons/flag-russian.png",
         level: 30,
       },
     ],
     projects: [
       {
-        name: "Dissolve tutorial",
-        description: "Create a dissolve effect with React Three Fiber",
+        name: "Insurance Lingo",
+        description: "Life & Health Insurance Gamified Test Reviewer",
         image: "projects/project1.jpg",
-        link: "https://www.youtube.com/watch?v=ma9t7HAOZRg",
+        link: "https://talkfilipino.com",
       },
       {
-        name: "Transition effect",
-        description: "Shader based transition effect",
+        name: "Language Learning Channel",
+        description: "Easy & Fun way to learn languages ",
         image: "projects/project2.jpg",
-        link: "https://www.youtube.com/watch?v=SOF7GBmC6gE",
+        link: "https://www.youtube.com/dialect101com",
       },
       {
-        name: "Portals",
-        description: "Create portals with React Three Fiber",
+        name: "FILAM Community Website",
+        description: "Events for community site",
         image: "projects/project3.jpg",
-        link: "https://www.youtube.com/watch?v=2W_VR92Pqgs",
+        link: "https://sfpinoy.com",
       },
       {
         name: "3D Portfolio",
-        description: "Learn how to build a 3D portfolio",
+        description: "Showcase Three JS skills",
         image: "projects/project4.jpg",
-        link: "https://www.youtube.com/watch?v=pGMKIyALcK0",
+        link: "https://www.victuelles.com",
       },
     ],
     contact: {
-      name: "Wawa Sensei",
-      address: "Tokyo, Japan",
+      name: "Rom Victuelles",
+      address: "San Francisco,CA",
       socials: {
-        linkedin: "https://www.linkedin.com/in/wassim-samad/",
-        twitter: "https://twitter.com/wawasensei",
+        linkedin: "https://www.linkedin.com/in/rom-victuelles-b3ab753",
+        github: "https://github.com/victuelles",
       },
-      mail: "contact@wawasensei.dev",
+      mail: "rom.victuelles@gmail.com",
     },
   };
   

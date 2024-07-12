@@ -23,7 +23,7 @@ export function Avatar(props) {
     return()=> actions[animation].fadeOut(0.5)
 
   },[animation])
-//  console.log(idleAnimation,walkingAnimation)
+  //console.log(idleAnimation,walkingAnimation)
 
 const scrollData= useScroll()
 const lastScroll= useRef(0)
