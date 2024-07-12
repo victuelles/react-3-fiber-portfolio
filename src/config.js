@@ -41,11 +41,11 @@ export const config = {
         icon: "icons/usa.png",
         level: 90,
       },
-      {
-        name: "Russian",
-        icon: "icons/flag-russian.png",
-        level: 30,
-      },
+      // {
+      //   name: "Russian",
+      //   icon: "icons/flag-russian.png",
+      //   level: 30,
+      // },
     ],
     projects: [
       {
