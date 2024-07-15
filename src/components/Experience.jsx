@@ -50,7 +50,6 @@ export const Experience = () => {
       config.sections[Math.round(scrollData.offset * (scrollData.pages - 1))]
     );
   });
-  // console.log("section",section)
   useEffect(() => {
     const handleHashChange = () => {
       const sectionIndex = config.sections.indexOf(

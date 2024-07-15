@@ -6,6 +6,8 @@ import React, { useEffect, useRef,useState } from 'react'
 import { useGLTF,useFBX, useAnimations, useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from "three"
+import { useMobile } from "../hooks/useMobile";
+
 export function Avatar(props) {
   const { nodes, materials } = useGLTF('/models/664a55260142ccdea24d8fcc.glb')
   const {animations:idleAnimation}=useFBX('/animations/Breathing Idle.fbx')
@@ -27,6 +29,7 @@ export function Avatar(props) {
 
 const scrollData= useScroll()
 const lastScroll= useRef(0)
+const { isMobile } = useMobile();
 useFrame(()=>{
   const scrollDelta = scrollData.offset -lastScroll.current
   
@@ -34,11 +37,11 @@ useFrame(()=>{
 
   if (Math.abs(scrollDelta)>0.000001){
     setAnimation("Walking")
-      if(scrollDelta>0){
-        rotationTarget=0
-      }else{
-        rotationTarget=Math.PI
-      }
+    if (scrollDelta > 0) {
+      rotationTarget = isMobile ? Math.PI / 2 : 0;
+    } else {
+      rotationTarget = isMobile ? -Math.PI / 2 : Math.PI;
+    }
     }
     else {
       setAnimation("Idle")
