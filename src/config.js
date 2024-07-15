@@ -67,8 +67,8 @@ export const config = {
         link: "https://sfpinoy.com",
       },
       {
-        name: "3D Portfolio",
-        description: "UI/UX Themes- Dashboarding",
+        name: "Dashboarding",
+        description: "UI/UX Themes & Data Viz",
         image: "projects/project4.jpg",
         link: "https://nextjs-multi-theme.vercel.app/",
       },
