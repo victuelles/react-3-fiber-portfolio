@@ -68,9 +68,9 @@ export const config = {
       },
       {
         name: "3D Portfolio",
-        description: "Showcase Three JS skills",
+        description: "UI/UX Themes- Dashboarding",
         image: "projects/project4.jpg",
-        link: "https://www.victuelles.com",
+        link: "https://nextjs-multi-theme.vercel.app/",
       },
     ],
     contact: {
