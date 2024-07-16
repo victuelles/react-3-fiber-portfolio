@@ -269,7 +269,7 @@ export const Experience = () => {
               position-x={isMobile ? 0 : 2 * scaleFactor}
               position-y={isMobile ? 2.2 : 1.5}
               position-z={-0.5}
-              scale={0.3}
+              scale={isMobile ? .2 : .3}
             />
           </Float>
         </motion.group>
